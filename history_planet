@@ -1,0 +1,56 @@
+.
+./fictional
+./history_planet
+./inhabited
+./inhabited/arrakis.jpeg
+./inhabited/coruscant.jpeg
+./inhabited/cybertron.jpeg
+./inhabited/earth.jpeg
+./real
+./real/gas-giants
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/neptune.jpeg
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/uranus.jpeg
+./real/telluric
+./real/telluric/mars.jpeg
+./real/telluric/mercury.jpeg
+./real/telluric/venus.jpeg
+    1  pwd
+    2  cd ..
+    3  lq
+    4  ls
+    5  mv earth.jpeg ./real/
+    6  mv jupiter.jpeg ./real
+    7  mv neptune.jpeg ./real/
+    8  mv saturn.jpeg ./real/
+    9  mv mars.jpeg ./real/
+   10  mv uranus.jpeg ./real/
+   11  mv mercury.jpeg ./real/
+   12  mv venus.jpeg ./real/
+   13  mv pluto.jpeg ./real/
+   14  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg ./fictional/
+   15  ls
+   16  cd real/
+   17  ls
+   18  mv pluto.jpeg ./dwarf-planets/
+   19  clear
+   20  ls
+   21  mv mercury.jpeg venus.jpeg earth.jpeg mars.jpeg ./telluric/
+   22  mv jupiter.jpeg saturn.jpeg uranus.jpeg neptune.jpeg ./gas-giants/
+   23  ls
+   24  cd ..
+   25  ls
+   26  mv fictional/* ./inhabited/
+   27  ls
+   28  mv real/telluric/earth.jpeg ./inhabited/
+   29  find
+   30  rm real/dwarf-planets/pluto.jpeg 
+   31  rmdir real/dwarf-planets/
+   32  clear
+   33  find
+   34  tree
+   35  clear
+   36  find
+   37  find > history_planet
+   38  history >> history_planet 
