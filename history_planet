@@ -1,5 +1,8 @@
 .
 ./fictional
+./fictional/arrakis.jpeg
+./fictional/coruscant.jpeg
+./fictional/cybertron.jpeg
 ./history_planet
 ./inhabited
 ./inhabited/arrakis.jpeg
@@ -13,6 +16,7 @@
 ./real/gas-giants/saturn.jpeg
 ./real/gas-giants/uranus.jpeg
 ./real/telluric
+./real/telluric/earth.jpeg
 ./real/telluric/mars.jpeg
 ./real/telluric/mercury.jpeg
 ./real/telluric/venus.jpeg
@@ -53,4 +57,18 @@
    35  clear
    36  find
    37  find > history_planet
-   38  history >> history_planet 
+   38  hustory >> history_planet 
+   39  history >> history_planet 
+   40  vi history_planet 
+   41  pwd
+   42  cp ./inhabited/earth.jpeg ./real/telluric/
+   43  cd inhabited/
+   44  ls
+   45  cp arrakis.jpeg coruscant.jpeg cybertron.jpeg ../fictional/
+   46  clear
+   47  find
+   48  pwd
+   49  cd ..
+   50  find
+   51  find > history_planet 
+   52  history >> history_planet 
